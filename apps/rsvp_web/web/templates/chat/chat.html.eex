@@ -1,0 +1,15 @@
+<h1> Welcome to the Chat Box</h1>
+
+<div class="well">
+  <span>HELLO WORLD!</span>
+</div>
+
+<div class="chat-box well">
+  <h3>Type Something</h3>
+</div>
+
+
+  <div class="form-group">
+    <label for="Text"> Type here</label>
+    <input type="text" name="text" value="", id="message">
+  </div>

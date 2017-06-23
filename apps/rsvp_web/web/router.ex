@@ -17,7 +17,9 @@ defmodule RsvpWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-
+    get "/chat", ChatController, :index
+    post "/chat/new", ChatController, :new
+    
     get "/login", LoginController, :index
     post "/login", LoginController, :login
   end

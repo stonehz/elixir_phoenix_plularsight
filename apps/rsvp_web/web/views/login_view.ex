@@ -1,3 +1,3 @@
-defmodule RsvpWeb.LoginView do
+defmodule RsvpWeb.ChatView do
   use RsvpWeb.Web, :view
 end
